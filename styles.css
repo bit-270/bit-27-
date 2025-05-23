@@ -1,0 +1,104 @@
+/* Fuentes estilo retro digital */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Verdana&display=swap');
+
+body {
+  font-family: 'Verdana', sans-serif;
+  background: linear-gradient(to bottom, #ffffff 0%, #e0e0ff 100%);
+  color: #000080;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header estilo brillante y tecnológico */
+header {
+  background: linear-gradient(to right, #c0c0ff, #f0f0ff);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 4px double #8080ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 128, 0.2);
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  color: #0000cc;
+  text-shadow: 1px 1px 2px #aaaaff;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 1rem;
+  color: #4444aa;
+  font-style: italic;
+}
+
+/* Menú tipo barra de navegación clásica */
+nav {
+  background: #000099;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 2rem;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  background-color: #0000cc;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+  background-color: #3333ff;
+  transform: scale(1.1);
+}
+
+/* Contenido principal */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffffdd;
+  border: 2px dashed #ccccff;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px #9999ff;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: #000088;
+  border-bottom: 2px dotted #8080ff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer tipo firma vieja */
+footer {
+  background-color: #000099;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-family: 'Courier New', monospace;
+  border-top: 2px solid #ffffff;
+}
+
+
+ body {
+  cursor: url('img/Minecraft\ Axolotl\ Face.cur'), auto;
+}
+
